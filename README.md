@@ -1,19 +1,20 @@
 This repository is an error reproduction for Issue in vscode ESLint
 
-fixError.js is the file that I'm trying to fix.
-Issue: using format with ESLint in vscode fix all the problems, not only the specified through eslint.options.fixTypes 
+<b>Issue:</b><br> 
+using format with ESLint in vscode fix all the problems, not only the specified through eslint.options.fixTypes in settings.json<br>
+<b>fixError.js</b> is the file that I'm trying to fix.<br>
 
-I'm using:
-vscode extension ESLint v2.4.4
-eslint v9.4.0
+<b>Setup:</b><br>
+vscode extension ESLint v2.4.4<br>
+eslint v9.4.0<br>
 
-My VSCode settings.json related configs to ESLint extension are:
-"eslint.experimental.useFlatConfig": true,
-"eslint.migration.2_x": "off",
-"eslint.format.enable": true,
-"eslint.options": {
-    "fixTypes": ["layout"]
-}
+<b>VSCode settings.json</b> (related to ESLint extension)<br>
+"eslint.experimental.useFlatConfig": true,<br>
+"eslint.migration.2_x": "off",<br>
+"eslint.format.enable": true,<br>
+"eslint.options": {<br>
+    "fixTypes": ["layout"]<br>
+}<br>
 
 both ESLint class example in "fixExample.js" and "npx eslint .\fixError.js --fix --fix-type layout" work properly
 
