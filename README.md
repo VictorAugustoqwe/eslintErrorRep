@@ -8,7 +8,6 @@ vscode extension ESLint v2.4.4
 eslint v9.4.0
 
 My VSCode settings.json related configs to ESLint extension are:
-
 "eslint.experimental.useFlatConfig": true,
 "eslint.migration.2_x": "off",
 "eslint.format.enable": true,
