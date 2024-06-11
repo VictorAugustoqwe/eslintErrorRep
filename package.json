@@ -1,0 +1,9 @@
+{
+  "name": "eslinterrorreprod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "error.js",
+  "devDependencies": {
+    "eslint": "^9.4.0"
+  }
+}
