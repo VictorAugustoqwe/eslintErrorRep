@@ -5,6 +5,7 @@ using format with ESLint in vscode fix all the problems, not only the specified 
 <b>fixError.js</b> is the file that I'm trying to fix.<br>
 
 <b>Setup:</b><br>
+Node v18.18.0<br>
 vscode extension ESLint v2.4.4<br>
 eslint v9.4.0<br>
 
